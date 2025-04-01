@@ -10,5 +10,5 @@ async def root():
 
 @app.get("/teste0003")
 async def funcaoteste():
-    return {"teste": "testando novamente"}
+    return {"teste": "testando o quarto teste"}
 
