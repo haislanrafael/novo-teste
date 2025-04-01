@@ -4,11 +4,11 @@ import random
 
 app = FastAPI()
 
-@app.get("/")
+@app.get("/esta e a segunda alteracao")
 async def root():
     return {"message": "hello word"}
 
-@app.get("/teste1")
+@app.get("/teste0002")
 async def funcaoteste():
-    return {"teste": True, "deu certo": random.randint(0,1000)}
+    return {"teste": True, "deu certo": "deu tudo certo novamente"}
 
