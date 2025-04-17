@@ -12,3 +12,5 @@ async def root():
 async def funcaoteste():
     return {"teste": "testando novamente"}
 
+
+
